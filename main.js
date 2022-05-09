@@ -7,12 +7,15 @@ var listpeople = ["mattepelle.mp@gmail.com, vvcbvcbvcvb, vgfhgf, hgfhgfhjghgbh, 
 
 for (let i=0; i< listpeople.length; i++) {
     console.log(listpeople[i]);
-    if (prova = listpeople[i]) {
-        document.getElementById("mailgiuste").innerHTML = ` la mail:${prova} è corretta`
+    if (prova == listpeople[i]) {
+        document.getElementById("mailgiuste").innerHTML = ` la mail: ${prova} è corretta`
     } else {
-        document.getElementById("mailgiuste").innerHTML = ` la mail:${prova} è sbagliata`
+        document.getElementById("mailgiuste").innerHTML = ` la mail: ${prova} è sbagliata`
     }
 }
+
+
+
 
 
 
